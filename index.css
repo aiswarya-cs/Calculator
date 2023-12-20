@@ -16,7 +16,7 @@
 .calculator{
     background: #161533;
     padding: 20px;
-  border-radius:10px ;
+    border-radius:10px ;
 }
 .calculator form input{
     border: 0;
@@ -39,8 +39,12 @@ form .display{
 form .display input{
     text-align: right;
     flex: 1;
-    font-size: 45px;
+    font-size: 40px;
     box-shadow: none;
+    width: 100px;
+    height: 60px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px !important;
 }
 .equal{
     background: #3b36cc !important;
